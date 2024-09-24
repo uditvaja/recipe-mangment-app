@@ -1,0 +1,29 @@
+
+
+body {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    font-family: 'Arial', sans-serif;
+}
+
+.recipe-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #343a40;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}

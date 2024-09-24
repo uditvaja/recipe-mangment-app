@@ -1,0 +1,74 @@
+body {
+    background-color: #f7f9fc;
+    font-family: 'Arial', sans-serif;
+}
+
+.recipe-details {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-title {
+    color: #343a40;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #495057;
+    margin-bottom: 15px;
+}
+
+.created-by {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #007bff;
+    margin-top: 20px;
+}
+
+.ingredients-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ingredients-list li {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.instructions {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.download-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+.loading,
+.error {
+    text-align: center;
+    color: #dc3545;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
